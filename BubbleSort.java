@@ -15,7 +15,7 @@ public class BubbleSort {
 		for (int i = 0; i < iterations; i++) { 
 			//second loop will actually iterate through the array and compare elements
 			//The largest number will move to the right, the loop will decrease by 1
-			//Loop incrementally decreases it search until array is sorted
+			//Loop incrementally decreases part of the array to iterate through, until sorted
 			for (int j =0; j < iterations - i; j++) { 
 				if (array[j] > array[j+1]) { 
 					swap(j, j+1, array);
